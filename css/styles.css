@@ -9,18 +9,19 @@
     color: transparent;
 } */
 body {
-    font-family: roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     color: var(--main-text-color);
 }
 .link-style-reset {
     text-decoration: none;
+    color: var(--main-text-color);
 }
 .list-style-reset {
     list-style: none;
 }
 /* ==HEADER STYLES START== */
 .logo-link {
-    font-family: raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
