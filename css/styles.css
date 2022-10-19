@@ -12,6 +12,10 @@
 /* a:visited {
     color: transparent;
 } */
+h1,h2,h3,h4,h5,h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: var(--main-text-color);
@@ -79,6 +83,7 @@ body {
 
 .benefits-list-item-heading {
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
@@ -102,6 +107,7 @@ body {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .our-team-list-item-heading {
